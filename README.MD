@@ -63,9 +63,9 @@ Por estas razones, Odoo Community es la opción más adecuada
 Estimación de costes durante 3 años.
 - Licencias Odoo Community  0 € 
 
--Hosting Cloud (AWS/Google Cloud) 3.600 € 
+- Hosting Cloud (AWS/Google Cloud) 3.600 € 
 
--Implantación (100h × 40 €/h)  4.000 € 
+- Implantación (100h × 40 €/h)  4.000 € 
 
 - Soporte y mantenimiento  4.500 € 
 
@@ -76,3 +76,35 @@ Total a 3 años: 12.100 €**
 # Bloque B: Diseño de Seguridad RBAC
 
 # Bloque C: Documentación de Explotación
+
+## Docker-compose.yml
+yaml
+version: '3.1'
+
+services:
+  odoo:
+    image: odoo:17
+    depends_on:
+      - db
+    ports:
+      - "8069:8069"
+    volumes:
+      - odoo-data:/var/lib/odoo
+    environment:
+      - HOST=db
+      - USER=odoo
+      - PASSWORD=odoo
+
+  db:
+    image: postgres:15
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=odoo
+      - POSTGRES_PASSWORD=odoo
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+volumes:
+  odoo-data:
+  db-data:
+
