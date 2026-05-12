@@ -38,6 +38,26 @@ De uso fácil, integración rápida y basado en nube
 
 Muy poca capacidad de personalización, dependencia total de proveedor Saas, limitaciones para adaptar procesos
 
+#  ERP Seleccionado
+
+Se selecciona **Odoo Community** como solución ERP para la empresa.
+
+## Justificación de la elección
+
+Odoo Community ofrece el mejor equilibrio entre coste, funcionalidad y flexibilidad para una PYME de 25 empleados.
+La empresa necesita:
+- Centralizar información.
+- Mejorar la gestión de inventario.
+- Automatizar facturación.
+- Tener capacidad de crecimiento futuro.
+
+Además:
+- No tiene coste de licencias.
+- Permite personalizar etiquetas y procesos.
+- Puede desplegarse en infraestructura cloud económica.
+- Facilita futuras ampliaciones mediante módulos.
+Por estas razones, Odoo Community es la opción más adecuada
+
 # Bloque B: Diseño de Seguridad RBAC
 
 # Bloque C: Documentación de Explotación
