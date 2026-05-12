@@ -8,6 +8,12 @@ La empresa sevillana "Aceites del Aljarafe S.L." opera actualmente con el "Efect
 
 Hemos analizado 3 posible soluciones:
 
+| ERP | Coste | Personalización | Complejidad | Adecuación PYME |
+| ----- | ----- | ----- | ----- | ----- |
+| **Odoo Community** | Muy bajo | Alta (código abierto) | Media | Excelente |
+| **SAP S/4HANA** | Muy alto | Alta | Muy alta | excesiva para 25 empleados |
+| **Zoho One** | Bajo | Media | Baja | Muy buena |
+
 ## Odoo
 
 ### Ventajas:
