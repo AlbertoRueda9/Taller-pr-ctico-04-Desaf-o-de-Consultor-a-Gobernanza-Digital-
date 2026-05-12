@@ -58,12 +58,15 @@ Además:
 - Facilita futuras ampliaciones mediante módulos.
 Por estas razones, Odoo Community es la opción más adecuada
 
-# 3 Cálculo de TCO (Coste Total de Propiedad)
+# Cálculo de TCO (Coste Total de Propiedad)
 
 Estimación de costes durante 3 años.
 - Licencias Odoo Community  0 € 
+
 -Hosting Cloud (AWS/Google Cloud) 3.600 € 
+
 -Implantación (100h × 40 €/h)  4.000 € 
+
 - Soporte y mantenimiento  4.500 € 
 
 ## Coste total estimado
