@@ -86,4 +86,4 @@ Documento docker-compose.yml
 ## comando para realizar un backup de la base de datos PostgreSQL.
 
 bash
-docker exec -t nombre_contenedor_db pg_dump -U odoo -F c -b -v -f /backup/odoo_backup.dump postgres.
+docker exec -t nombre_contenedor_db pg_dump -U odoo -F c -b -v -f /backup/odoo_backup.dump postgres
