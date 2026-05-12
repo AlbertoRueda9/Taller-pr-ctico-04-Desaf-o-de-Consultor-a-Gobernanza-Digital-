@@ -22,13 +22,21 @@ Requiere soporte de mantenimiento y algunas funciones requieren una versiones "e
 
 ### Ventajas:
 
+Pontente, alta escabilidad y herramientas de análisis
+
 ### Desventajas:
+
+Coste elevado, implantación compleja y excesivo para una empresa de solo 25 empleados
 
 ## ZOHO ONE
 
 ### Ventajas:
 
+De uso fácil, integración rápida y basado en nube
+
 ### Desventajas:
+
+Muy poca capacidad de personalización, dependencia total de proveedor Saas, limitaciones para adaptar procesos
 
 # Bloque B: Diseño de Seguridad RBAC
 
