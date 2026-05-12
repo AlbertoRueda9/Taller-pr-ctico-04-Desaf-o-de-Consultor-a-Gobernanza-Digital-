@@ -78,33 +78,10 @@ Total a 3 años: 12.100 €**
 # Bloque C: Documentación de Explotación
 
 ## Docker-compose.yml
-yaml
-version: '3.1'
 
-services:
-  odoo:
-    image: odoo:17
-    depends_on:
-      - db
-    ports:
-      - "8069:8069"
-    volumes:
-      - odoo-data:/var/lib/odoo
-    environment:
-      - HOST=db
-      - USER=odoo
-      - PASSWORD=odoo
+## comando para realizar un backup de la base de datos PostgreSQL.
 
-  db:
-    image: postgres:15
-    environment:
-      - POSTGRES_DB=postgres
-      - POSTGRES_USER=odoo
-      - POSTGRES_PASSWORD=odoo
-    volumes:
-      - db-data:/var/lib/postgresql/data
+bash
+docker exec -t nombre_contenedor_db pg_dump -U odoo -F c -b -v -f /backup/odoo_backup.dump postgres
 
-volumes:
-  odoo-data:
-  db-data:
 
