@@ -87,3 +87,11 @@ Documento docker-compose.yml
 
 bash
 docker exec -t nombre_contenedor_db pg_dump -U odoo -F c -b -v -f /backup/odoo_backup.dump postgres
+
+# Webgrafía
+
+[1] Odoo S.A., “Odoo - Software de gestión empresarial ERP y CRM”: https://www.odoo.com/es_ES
+
+[2] SAP, “SAP S/4HANA Cloud ERP”: https://www.sap.com/spain/products/erp/s4hana.html
+
+[3] Zoho Corporation, “Zoho One”: https://www.zoho.com/es-xl/one/
