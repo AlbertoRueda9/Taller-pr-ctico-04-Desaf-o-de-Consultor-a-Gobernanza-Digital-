@@ -1,4 +1,4 @@
-Trabajo realizado por Alberto Rueda, David, Delgado y Daniel Ortiz
+Trabajo realizado por Alberto Rueda, David Delgado y Daniel Ortiz
 
 # ESCENARIO
 
